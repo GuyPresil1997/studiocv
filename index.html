@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<script>
+  // This forces the page to load correctly on GitHub Pages
+  // by redirecting /uploadcv/ to the hash version /uploadcv/#/
+  if (window.location.pathname.endsWith('/uploadcv/') && !window.location.hash) {
+      window.location.href = window.location.href + '#/';
+  }
+</script>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
